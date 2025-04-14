@@ -39,7 +39,17 @@ Explain the difference between Divide and Conquer and Dynamic Programming strate
 
 ### 3. Step-by-Step Time Complexity Derivation
 **Prompt:**  
-Given an algorithm (similar to ones in lecture slides), perform a step-by-step mathematical analysis to determine its time complexity.
+Given an algorithm (similar to ones in lecture slides), perform a step-by-step mathematical analysis to determine its time complexity. 
+
+**Example of algorithm:**
+```text
+ADD-5(n: nonnegative integer)
+a -> 0
+for i -> 1 to n
+    for j -> i+1 to n
+        a -> a+1
+return a
+```
 
 **Expected Points:**
 - Recurrence relation derivation
